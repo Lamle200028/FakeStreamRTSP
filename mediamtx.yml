@@ -1,0 +1,5 @@
+paths:
+  live:
+    runOnInit: ffmpeg -f dshow -rtbufsize 100M -i video="XWF 1080P  PC Camera":audio="Microphone (XWF 1080P  PC Camera)" -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -f rtsp rtsp://127.0.0.1:8554/live
+    runOnInitRestart: yes
+

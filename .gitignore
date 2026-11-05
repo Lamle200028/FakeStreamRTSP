@@ -1,0 +1,10 @@
+# Binaries
+mediamtx.exe
+*.exe
+
+# Auto-generated TLS certificates
+auto.crt
+auto.key
+
+# Logs
+*.log
